@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Sauce Age</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="container">
+            <a href="Sauce-Age/sauce.html" class="logo">Sauce Age</a>
+            <div class="header-actions">
+                <a href="cart.html" class="cart-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="#FF4500" d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5.672-1.5 1.5-1.5 1.5.671 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5zm6.305-13.5l-2.121 2.121-1.414-1.414L19.12 3H5.25C4.01 3 3 4.01 3 5.25v14.5C3 20.99 4.01 22 5.25 22h13.5c1.24 0 2.25-1.01 2.25-2.25V7.414l-2.695-2.695zM19 19.5c0 .829-.672 1.5-1.5 1.5H6.5C5.672 21 5 20.328 5 19.5V9h14v10.5z"/>
+                    </svg>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Grid -->
+    <section class="product-grid-section">
+        <div class="container">
+            <h2 class="section-title">Our Signature Collection</h2>
+            
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="Sauce-Age/shopnowpage/shop images/grill-background.jpeg" alt="Original BBQ Sauce">
+                    <div class="product-content">
+                        <h3>Original BBQ Sauce-Age</h3>
+                        <p class="price">R99.99</p>
+                        <p class="description">Classic smokey flavor with a hint of molasses</p>
+                        <button class="add-to-cart-btn" data-product='{
+                            "name": "Original BBQ Sauce",
+                            "price": 99.99,
+                            "image": "Sauce-Age/shopnowpage/shop images/grill-background.jpeg"
+                        }'>Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="Sauce-Age/shopnowpage/shop images/grill-background.jpeg" alt="Smoky Bourbon BBQ">
+                    <div class="product-content">
+                        <h3>Smokey Bourbon BBQ</h3>
+                        <p class="price">R99.99</p>
+                        <p class="description">Aged bourbon-infused sauce with oak-smoked undertones</p>
+                        <button class="add-to-cart-btn" data-product='{
+                            "name": "Smoky Bourbon BBQ",
+                            "price": 99.99,
+                            "image": "Sauce-Age/shopnowpage/shop images/grill-background.jpeg"
+                        }'>Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="Sauce-Age/shopnowpage/shop images/grill-background.jpeg" alt="Grill Machine Pro">
+                    <div class="product-content">
+                        <h3>Grill Machine Pro</h3>
+                        <p class="price">R299.99</p>
+                        <p class="description">Professional-grade electric grill with temperature control</p>
+                        <button class="add-to-cart-btn" data-product='{
+                            "name": "Grill Machine Pro",
+                            "price": 299.99,
+                            "image": "Sauce-Age/shopnowpage/shop images/grill-background.jpeg"
+                        }'>Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Add 5 more products following the same pattern -->
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="Sauce-Age/shopnowpage/shop images/grill-background.jpeg" alt="Honey Mustard Glaze">
+                    <div class="product-content">
+                        <h3>Honey Mustard Glaze</h3>
+                        <p class="price">R99.99</p>
+                        <p class="description">Sweet and tangy blend with whole grain mustard</p>
+                        <button class="add-to-cart-btn" data-product='{
+                            "name": "Honey Mustard Glaze",
+                            "price": 99.99,
+                            "image": "Sauce-Age/shopnowpage/shop images/grill-background.jpeg"
+                        }'>Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <img src="Sauce-Age/shopnowpage/shop images/grill-background.jpeg" alt="Spicy Chipotle Sauce">
+                    <div class="product-content">
+                        <h3>Spicy Chipotle Sauce</h3>
+                        <p class="price">R99.99</p>
+                        <p class="description">Smoked chili peppers with a fiery kick</p>
+                        <button class="add-to-cart-btn" data-product='{
+                            "name": "Spicy Chipotle Sauce",
+                            "price": 99.99,
+                            "image": "Sauce-Age/shopnowpage/shop images/grill-background.jpeg"
+                        }'>Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <img src="Sauce-Age/shopnowpage/shop images/grill-background.jpeg" alt="Herb Infusion Marinade">
+                    <div class="product-content">
+                        <h3>Herb Infusion Marinade</h3>
+                        <p class="price">R99.99</p>
+                        <p class="description">Fresh rosemary and thyme blend for tender meats</p>
+                        <button class="add-to-cart-btn" data-product='{
+                            "name": "Herb Infusion Marinade",
+                            "price": 99.99,
+                            "image": "Sauce-Age/shopnowpage/shop images/grill-background.jpeg"
+                        }'>Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <img src="Sauce-Age/shopnowpage/shop images/grill-background.jpeg" alt="Garlic Parmesan Rub">
+                    <div class="product-content">
+                        <h3>Garlic Parmesan Rub</h3>
+                        <p class="price">R99.99</p>
+                        <p class="description">Roasted garlic and aged parmesan seasoning blend</p>
+                        <button class="add-to-cart-btn" data-product='{
+                            "name": "Garlic Parmesan Rub",
+                            "price": 99.99,
+                            "image": "Sauce-Age/shopnowpage/shop images/grill-background.jpeg"
+                        }'>Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <img src="Sauce-Age/shopnowpage/shop images/grill-background.jpeg" alt="Smoker Wood Chips">
+                    <div class="product-content">
+                        <h3>Smoker Wood Chips</h3>
+                        <p class="price">R99.99</p>
+                        <p class="description">Premium hickory chips for authentic smoke flavor</p>
+                        <button class="add-to-cart-btn" data-product='{
+                            "name": "Smoker Wood Chips",
+                            "price": 99.99,
+                            "image": "Sauce-Age/shopnowpage/shop images/grill-background.jpeg"
+                        }'>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="shop.js"></script>
+
+<!-- Elfsight WhatsApp Chat | sauce-age whatsapp btn -->
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-c2093a7a-8c88-449f-b1f5-290bd69f8eed" data-elfsight-app-lazy></div>
+
+ <!-- Footer -->
+ <footer>
+    <div class="container">
+        <div class="payment-icons">
+            <img src="saved images/Visa.webp" alt="Visa">
+            <img src="saved images/Mastercard-Logo.wine.webp" alt="Mastercard">
+            
+        </div>
+        <p>&copy; 2025 Sauce Age. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
