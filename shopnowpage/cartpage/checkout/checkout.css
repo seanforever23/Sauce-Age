@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .main-nav {
+    background: hwb(59 2% 19%)f04fff;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .navbar-brand {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    color: #FF4500;
+    text-decoration: none;
+  }
+  
+  .cart-icon {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: #FF4500;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+  }
+  
+  .cart-page {
+    padding: 2rem 0;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .cart-items {
+    min-height: 200px;
+    margin-bottom: 2rem;
+  }
+  
+  .cart-summary {
+    text-align: right;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #FF4500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+  
+  .btn:hover {
+    background: hwb(56 1% 12%);
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

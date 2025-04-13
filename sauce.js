@@ -51,23 +51,3 @@ function showError(elementId, message) {
 function clearErrors() {
     document.querySelectorAll('.error').forEach(el => el.textContent = '');
 }
-
-//About Sauce Ages Learn More Button Functions
-// About Section Toggle
-document.querySelector('.about-btn').addEventListener('click', function() {
-    const moreContent = document.querySelector('.more-content');
-    const btn = document.querySelector('.about-btn');
-    
-    if (moreContent.style.display === 'none') {
-        moreContent.style.display = 'block';
-        btn.textContent = 'Show Less';
-        // Optional smooth scroll to accommodate new content
-        document.querySelector('.about-content').scrollIntoView({
-            behavior: 'smooth',
-            block: 'end'
-        });
-    } else {
-        moreContent.style.display = 'none';
-        btn.textContent = 'Learn More';
-    }
-});
